@@ -1,0 +1,526 @@
+/*--------------------------------------------------HTML----------------------------------------------*/
+html {
+     font-family:calibri;
+}
+
+.div-main {
+     margin-left:auto;
+     margin-right:auto;
+     margin-top:5px;
+     width:98%;
+}
+
+.div-overview {
+     margin-left:12%;
+     margin-right:auto;
+     margin-top:auto;
+     width:87%;
+     height:90%;
+}
+	
+.table-overview {
+     margin-bottom:auto;
+     margin-top:auto;
+     margin-left:0;
+     margin-right:auto;
+     width:100%;
+}
+
+.table-registration {
+     margin-left:50px;
+     margin-right:100px;
+     width:100%;
+}
+
+#panel-overview {
+     margin-bottom:15px;
+     margin-top:15px;
+     margin-left:auto;
+     margin-right:auto;
+     width:80%;
+     text-align:center;
+}
+
+/*----------------------------------------------Login---------------------------------------------------*/
+
+.logininput[type=text], .logininput[type=password] {
+     width: 100%;
+     height: 35px;
+     margin: 8px 5px;
+     border: 1px solid #ccc;
+     border-radius:5px;
+}
+
+.banner {
+     font-size:40px;
+	margin: 8px 5px;
+	font-family: Rockwell;
+     color: #555;
+     -webkit-text-stroke: white;
+     -webkit-text-stroke-width: 1px;
+     text-shadow: 500px #000;
+}
+
+.btnlogin {
+	margin: 0px 0px;
+     border-radius:5px;
+     cursor: pointer;
+     width: 30%;
+     height: 35px;
+     font-size:14px;
+}
+
+.btnlogin:hover {
+     opacity: 10;
+}
+
+.btncancel {
+     background-color: #D24D57;
+     color: black;
+	 margin: 0px 0px;
+     border: 1px solid #000;
+     border-radius:5px;
+     cursor: pointer;
+     width: 40%;
+     height: 35px;
+     font-size:14px;
+}
+
+.imgcontainer {
+     text-align: center;
+     margin: 24px 0 12px 0;
+}
+
+img.avatar {
+     width: 7%;
+}
+
+#container {
+     width:20%;
+	height:30%;
+     margin-left:auto;
+     margin-right:auto;    
+     border: 1px solid #ccc;
+     border-radius:10px;
+     padding: 10px 18px;
+}
+
+span.psw {
+     float: right;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/*----------------------------------------- Horizontal Navigation Bar---------------------------------------*/
+
+.ul-nav {
+     list-style-type:none;
+     margin-left:0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #f1eded;
+     border-radius:5px;
+     height:45px;
+     position: relative;
+}
+
+.ul-nav a {
+     float:left;
+     display: block;
+     color: white;
+     margin-top:5px;
+     margin-bottom:5px;
+     text-align: center;
+     padding: 5px 14px;
+     text-decoration: none;
+     border-right: 1px solid #555;
+     font-size: 18px;
+     font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.li-right a {
+     float:right;
+     font-size: 18px;
+     display: block;
+     color: white;
+     margin-top:8px;
+     margin-bottom:5px;
+     text-align: center;
+     padding: 5px 14px;
+     text-decoration: none;
+     border-right: 1px solid #555;
+}
+
+.li-left a.active {
+     background-color: #999;
+     color: white;
+}
+
+.li-left a:hover:not(.active) {
+     background-color: #888;
+     color: white;
+}
+
+.li-right a.active {
+     background-color: #999;
+     color: white;
+}
+
+.li-right a:hover:not(.active) {
+     background-color: #888;
+     color: white;
+}
+/*----------------------------------------Drop-down------------------------------------------------------*/
+
+/* Navbar container */
+.navbar1 {
+     overflow: hidden;
+     background-color: gray;
+     font-family: Arial;
+     border-radius: 5px;
+}
+/* Links inside the navbar */
+.navbar1 a {
+     float: left;
+     font-size: 16px;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     margin-top:5px;
+     margin-bottom:5px;
+     text-align: center;
+     padding: 5px 14px;
+     text-decoration: none;
+     border-right: 1px solid #555;
+     border-left: 1px solid #555;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar-right1 {
+     float: right;
+     font-family: Arial, Helvetica, sans-serif;
+}
+   
+/* The dropdown container */
+.dropdown1 {
+     float: left;
+     overflow: hidden;
+}
+   
+/* Dropdown button */
+.dropdown1 .dropbtn1 {
+     font-size: 16px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     border-right: 1px solid #555;
+     color: white;
+     padding: 5px 14px;
+     background-color: gray;
+     margin-top:5px;
+     margin-bottom:5px; /* Important for vertical align on mobile phones */
+}
+
+   
+/* background color to navbar links on hover */
+.navbar1 a:hover, .dropdown1:hover .dropbtn1 {
+     background-color:rgb(91, 195, 227);
+     color: white;
+}
+   
+/* Dropdown content (hidden by default) */
+.dropdown-content1 {
+     display: none;
+     position: absolute;
+     background-color: rgb(234, 230, 230);
+     color: white;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+     margin-top: 40px;
+}
+   
+   /* Links inside the dropdown */
+.dropdown-content1 a {
+     float: none;
+     color: gray;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+     font-family: Arial, Helvetica, sans-serif;
+     border: none;
+}
+   
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content1 a:hover {
+     background-color: #aba1a1;
+}
+   
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {
+     display: block;
+}
+
+/*----------------------------------------Vertical Navigation Bar---------------------------------------*/
+
+.nav-ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     width: 10%;
+     background-color: #f1f1f1;
+     position: absolute;
+     height: 100%;
+     overflow: auto;
+     text-align: left;
+     border: 1px solid #555;
+     border-radius:5px;
+}
+
+.nav-li {
+     display:block;
+     border-bottom: 1px solid #555;
+     padding: 8px 0px;
+     text-align:left;
+     font-size:12px;
+}
+
+.nav-li-font {
+     text-align:left;
+     font-size:12px;
+}
+
+.nav-li a {
+     display: block;
+     color: #000;
+     padding: 8px 16px;
+     text-decoration: none;
+     border-bottom: 1px solid #555;
+}
+
+.nav-li a.active {
+     background-color: #04AA6D;
+     color: white;
+}
+
+.nav-li a:hover:not(.active) {
+     background-color: #888;
+     color: white;
+}
+
+.submenu-container {
+  display: none;
+}
+
+/*-----------------------------------------ADD USER--------------------------------------------------*/
+
+.useraccounttable{
+     width: 100%;
+}
+
+.addusertable{
+     text-align: right;
+     width: 100%;
+}
+
+.adduserdiv{
+     width: 50%;
+     text-align: center;
+}
+
+.adduserinput{
+     width: 50%;
+     float: left;
+     height: 35px;
+     margin: 8px 0;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+}
+
+.btnadduser{
+     width: 5%;
+}
+
+.btnback{
+     width: 20%;
+}
+
+/*-------------------------------------------USER INFO------------------------------------------*/
+
+.styletable {
+     width:100%;
+     font-size:16px;
+     height: 20%;
+     overflow-y: scroll;
+}  
+
+.styletable th {
+     border-bottom: 1px solid #ddd;
+     background-color: #04AA6D;
+     color: white;
+     text-align:center;
+     height: 40px;
+}
+
+.styletable td {
+     text-align: center;
+     font-size: 14px;
+     height: 40px;
+     margin-bottom: 50px;
+}
+
+.styletable tr:hover {
+	background-color: #f5f5f5;
+}
+
+.styletable tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.btnback {
+     width: 5%;
+}
+
+/*-----------------------------------------ADD CUSTOMER---------------------------------------*/
+
+.addcustomertable{
+     text-align: center;
+     width: 100%;
+}
+
+.addcustomerinput{
+     width: 300px;
+     float: left;
+     height: 30px;
+     margin: 8px 0;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+}
+
+.btnindividualsearch {
+	background-color: lightgray;
+     color: black;
+	padding-top: 5px;
+     border: 1px solid #000;
+     border-radius:5px;
+     cursor: pointer;
+     width: 30%;
+     height: 30px;
+     font-size:14px;
+}
+
+.btnindividualclear {
+     
+     padding-left: 30px;
+     padding-right: 30px;
+	text-align: center;
+}
+
+.btnupload {
+     float: left;
+	text-align: center;
+	margin-left: 5px;
+}
+
+.RefTextarea {
+     float: left;
+     margin-left: auto;
+     margin-top: auto;
+    
+     border-radius: 0.5em;
+}
+
+.form {
+     width: 30%;
+     margin: auto;
+}
+
+
+
+.panel-heading {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+}
+
+/*---------------------Import---------------------------*/
+
+.Import-Input{
+     width: 30%;
+     float: left;
+     margin: 8px 0;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+}
+
+input[type=file]::file-selector-button {
+     border: 1px solid;
+     padding: .2em .4em;
+     border-radius: .2em;
+     transition: 1s;
+     height: 32px;
+     width: 100px;
+}
+
+.Import-btn{
+     height: 32px;
+     width: 100px;
+     padding: .2em .4em;
+     transition: 1s;
+     margin-top: 10px;
+     margin-left:5px;
+     border: 1px solid;
+     border-radius: .2em;
+
+}
+
+.addtranssubmit-btn{
+     height: 32px;
+     width: 100px;
+     float: right;
+     padding: .2em .4em;
+     transition: 1s;
+     margin-top: 15px;
+     margin-left:5px;
+     margin-right: 70px;
+     border: 1px solid;
+     border-radius: .2em;
+}
+
+.transsearch-btn{
+     height: 32px;
+     width: 100px;
+     float: right;
+     padding: .2em .4em;
+     transition: 1s;
+     margin-top: 5px;
+     margin-left:5px;
+     margin-right: 20px;
+     border: 1px solid;
+     border-radius: .2em;
+}
+
+.Create-btn{
+     height: 32px;
+     width: 100px;
+     padding: .2em .4em;
+     transition: 1s;
+     margin-top: 15px;
+     margin-left:5px;
+     border: 2px solid;
+     border-radius: .2em;
+}
+
+.addtrans-textarea {
+     float: left;
+     margin-left: auto;
+     margin-top: auto;
+     width: 300px;
+}
